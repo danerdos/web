@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="color-scheme" content="light" />
+  <meta name="theme-color" content="#f7f7f2" />
+  <meta name="description" content="Software developer portfolio showcasing projects, skills, and experience." />
+  <title>Daner — Software Developer</title>
+
+  <link rel="icon" href="favicon.ico" sizes="any" />
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png" />
+  <link rel="icon" type="image/png" sizes="192x192" href="site-icon-192.png" />
+  <link rel="icon" type="image/png" sizes="512x512" href="site-icon-512.png" />
+  <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap"
+    rel="stylesheet"
+  />
+  <link
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.0/css/all.min.css"
+    rel="stylesheet"
+    referrerpolicy="no-referrer"
+  />
+
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="page-noise" aria-hidden="true"></div>
+
+  <header class="site-header">
+    <a class="brand" href="#home" aria-label="Go to homepage">
+      <img class="brand-logo" src="blue-logo-header.png" alt="Daner logo" />
+    </a>
+
+    <button
+      class="menu-button"
+      type="button"
+      aria-label="Open navigation"
+      aria-expanded="false"
+      aria-controls="main-navigation"
+    >
+      <span></span>
+      <span></span>
+    </button>
+
+    <nav id="main-navigation" class="navigation" aria-label="Main navigation">
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#services">Services</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home" class="hero section">
+      <div class="hero-copy reveal">
+        <p class="eyebrow hero-role">SOFTWARE DEVELOPER</p>
+
+        <h1>
+          <span class="hero-name">
+            DANER JASIM <span class="hero-nickname">DOS</span>
+          </span>
+          <span class="hero-tagline">i build web &amp; mobile applications</span>
+        </h1>
+
+        <p class="hero-description">
+          I design and develop desktop, mobile, and web applications with a
+          strong focus on clean interfaces, reliable systems, and maintainable code.
+        </p>
+
+        <div class="hero-actions">
+          <a class="button button-primary" href="#services">View services</a>
+          <a class="button button-secondary" href="#contact">Contact me</a>
+        </div>
+      </div>
+
+      <div class="hero-visual reveal" aria-label="Developer profile card">
+        <div class="orbit orbit-one"></div>
+        <div class="orbit orbit-two"></div>
+
+        <div class="profile-card">
+          <div class="profile-top">
+            <span class="status-dot"></span>
+            <span>Available for selected projects</span>
+          </div>
+
+          <div class="profile-code">
+            <span class="code-muted">const</span>
+            <span class="code-accent">developer</span>
+            <span class="code-muted">=</span>
+            <span>{</span>
+            <span class="code-line">name: <strong>"Daner <span class="accent-text">Dos</span>"</strong>,</span>
+            <span class="code-line">focus: <strong>"Software Development"</strong>,</span>
+            <span class="code-line">mindset: <strong>"Build. Test. Improve."</strong></span>
+            <span>};</span>
+          </div>
+
+          <div class="profile-metrics">
+            <div>
+              <strong>Web</strong>
+              <span>Responsive interfaces</span>
+            </div>
+            <div>
+              <strong>Mobile</strong>
+              <span>Flutter applications</span>
+            </div>
+            <div>
+              <strong>System</strong>
+              <span>Desktop applications</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <a class="scroll-indicator" href="#about" aria-label="Scroll to about section">
+        <span>SCROLL</span>
+        <i></i>
+      </a>
+    </section>
+
+    <section id="about" class="section section-grid">
+      <div class="section-heading reveal">
+        <p class="section-number">01</p>
+        <h2>About me</h2>
+      </div>
+
+      <div class="about-content reveal">
+        <p class="large-copy">
+          I'm Daner Jasim <span class="accent-text">DOS</span> software developer
+          who enjoy to program and design every idea to a real project and solve
+          real problems in the most modern ways and modern technology
+        </p>
+
+        <div class="about-columns">
+          <p>
+            My work includes Windows desktop systems, mobile apps, backend APIs,
+            databases, and responsive websites. I care about both the technical
+            structure behind the product and the experience people have while using it.
+          </p>
+
+          <p>
+            I approach projects through careful planning, clear architecture,
+            iterative development, and real-world testing. The goal is not only
+            to make software work, but to make it easy to maintain and improve.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="section">
+      <div class="section-heading reveal">
+        <p class="section-number">02</p>
+        <h2>Skills</h2>
+      </div>
+
+      <div class="skills-grid">
+        <article class="skill-card reveal">
+          <span>01</span>
+          <h3>Frontend</h3>
+          <p>Clear, responsive interfaces designed to feel simple and intuitive.</p>
+        </article>
+
+        <article class="skill-card reveal">
+          <span>02</span>
+          <h3>Backend</h3>
+          <p>Reliable application logic and secure systems built for real needs.</p>
+        </article>
+
+        <article class="skill-card reveal">
+          <span>03</span>
+          <h3>Database</h3>
+          <p>Organized data structures focused on accuracy, speed, and consistency.</p>
+        </article>
+
+        <article class="skill-card reveal">
+          <span>04</span>
+          <h3>Workflow</h3>
+          <p>Careful planning, testing, problem solving, and continuous improvement.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="services" class="section">
+      <div class="section-heading section-heading-row reveal">
+        <div>
+          <p class="section-number">03</p>
+          <h2>Services</h2>
+        </div>
+
+        <p>
+          Digital services designed to turn your ideas into practical,
+          reliable products.
+        </p>
+      </div>
+
+      <div class="projects-list">
+        <article class="project-card reveal">
+          <div class="project-index">01</div>
+
+          <div class="project-content">
+            <p class="project-type">DESKTOP SOFTWARE</p>
+            <h3>WINDOWS SYSTEMS</h3>
+            <p>
+              POS cashier systems, ERP management systems, and basic Windows apps.
+            </p>
+          </div>
+
+          <div class="project-preview dashboard-preview" aria-hidden="true">
+            <div class="preview-sidebar">
+              <span></span><span></span><span></span><span></span>
+            </div>
+            <div class="preview-main">
+              <div class="preview-header"></div>
+              <div class="preview-stats">
+                <i></i><i></i><i></i>
+              </div>
+              <div class="preview-chart">
+                <b style="--height: 36%"></b>
+                <b style="--height: 62%"></b>
+                <b style="--height: 48%"></b>
+                <b style="--height: 78%"></b>
+                <b style="--height: 58%"></b>
+                <b style="--height: 88%"></b>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-card reveal">
+          <div class="project-index">02</div>
+
+          <div class="project-content">
+            <p class="project-type">ANDROID &amp; IOS</p>
+            <h3>MOBILE APPS</h3>
+            <p>
+              We can turn any mobile app idea into an application for both
+              Android and iOS.
+            </p>
+          </div>
+
+          <div class="project-preview mobile-preview" aria-hidden="true">
+            <div class="phone phone-back">
+              <div class="phone-screen">
+                <div class="phone-pill"></div>
+                <div class="mobile-block tall"></div>
+                <div class="mobile-row"><i></i><i></i><i></i></div>
+                <div class="mobile-block"></div>
+              </div>
+            </div>
+
+            <div class="phone phone-front">
+              <div class="phone-screen">
+                <div class="phone-pill"></div>
+                <div class="mobile-title"></div>
+                <div class="mobile-search"></div>
+                <div class="mobile-grid"><i></i><i></i><i></i><i></i></div>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-card reveal">
+          <div class="project-index">03</div>
+
+          <div class="project-content">
+            <p class="project-type">WEBSITE DESIGN &amp; DEVELOPMENT</p>
+            <h3>Creative Portfolio</h3>
+            <p>
+              From personal portfolios to company websites, I create responsive
+              experiences that present your work, services, and brand professionally.
+            </p>
+          </div>
+
+          <div class="project-preview website-preview" aria-hidden="true">
+            <div class="browser-bar">
+              <i></i><i></i><i></i>
+            </div>
+            <div class="browser-body">
+              <div class="browser-title"></div>
+              <div class="browser-line"></div>
+              <div class="browser-button"></div>
+              <div class="browser-art"></div>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section process-section">
+      <div class="section-heading reveal">
+        <p class="section-number">04</p>
+        <h2>How I work</h2>
+      </div>
+
+      <div class="process-list">
+        <article class="process-item reveal">
+          <span>01</span>
+          <h3>Understand</h3>
+          <p>Clarify the problem, users, requirements, risks, and desired outcome.</p>
+        </article>
+
+        <article class="process-item reveal">
+          <span>02</span>
+          <h3>Design</h3>
+          <p>Plan the structure, user flow, database, APIs, and interface system.</p>
+        </article>
+
+        <article class="process-item reveal">
+          <span>03</span>
+          <h3>Build</h3>
+          <p>Develop in clear stages with reusable code and consistent components.</p>
+        </article>
+
+        <article class="process-item reveal">
+          <span>04</span>
+          <h3>Improve</h3>
+          <p>Test, fix, optimize, and refine the product based on real use.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="contact" class="section contact-section">
+      <div class="contact-copy reveal">
+        <p class="section-number">05</p>
+        <h2>Have a project in mind?</h2>
+        <p>
+          Tell me what you are building, what problem you want to solve, and where
+          you need help.
+        </p>
+      </div>
+
+      <div class="contact-actions reveal">
+        <a
+          class="contact-link"
+          href="https://www.instagram.com/daner.dos?igsh=endqMW82eTZiZjJq"
+          target="_blank"
+          rel="noreferrer"
+          aria-label="Open Daner's Instagram"
+        >
+          <span class="contact-platform">
+            <i class="fa-brands fa-instagram contact-icon" aria-hidden="true"></i>
+            Instagram
+          </span>
+          <strong>@daner.dos</strong>
+          <i class="contact-arrow" aria-hidden="true">&nearr;</i>
+        </a>
+
+        <a
+          class="contact-link"
+          href="https://wa.me/9647512334292"
+          target="_blank"
+          rel="noreferrer"
+          aria-label="Message Daner on WhatsApp"
+        >
+          <span class="contact-platform">
+            <i class="fa-brands fa-whatsapp contact-icon" aria-hidden="true"></i>
+            WhatsApp
+          </span>
+          <strong>+964 751 233 4292</strong>
+          <i class="contact-arrow" aria-hidden="true">&nearr;</i>
+        </a>
+
+        <a
+          class="contact-link"
+          href="https://t.me/D4N3R"
+          target="_blank"
+          rel="noreferrer"
+          aria-label="Message Daner on Telegram"
+        >
+          <span class="contact-platform">
+            <i class="fa-brands fa-telegram contact-icon" aria-hidden="true"></i>
+            Telegram
+          </span>
+          <strong>@D4N3R</strong>
+          <i class="contact-arrow" aria-hidden="true">&nearr;</i>
+        </a>
+
+        <a
+          class="contact-link"
+          href="mailto:dandos.2002dd@gmail.com"
+          aria-label="Email Daner"
+        >
+          <span class="contact-platform">
+            <i class="fa-solid fa-envelope contact-icon" aria-hidden="true"></i>
+            Email
+          </span>
+          <strong>dandos.2002dd@gmail.com</strong>
+          <i class="contact-arrow" aria-hidden="true">&nearr;</i>
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>© <span id="current-year"></span> Daner. All rights reserved.</p>
+    <a href="#home">Back to top ↑</a>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
